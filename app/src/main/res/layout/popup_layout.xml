@@ -1,8 +1,9 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
-    android:background="#f00"
+    android:background="#e4e4e4"
     android:padding="40dp"
+    android:orientation="vertical"
     >
 
     <EditText
@@ -12,6 +13,13 @@
         android:hint="write_note herre"
         android:inputType="number"
         android:imeOptions="actionDone"
+        />
+
+    <Button
+        android:id="@+id/button_close"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Close"
         />
 
 </LinearLayout>
